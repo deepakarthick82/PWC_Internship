@@ -15,3 +15,16 @@
 ##duration & campaign follows similar pattern with all other variables(non linear)
 ##pdays follows similar non linear relationship with all other variables
 
+
+#Model performance
+DecisionTree        0.511816  0.722918  0.887572   0.507793  0.522414
+LogisticRegression  0.517881  0.934369  0.911236   0.666717  0.423563
+RandomForest        0.531541  0.938414  0.911722   0.667173  0.439368
+Gradient Boosting   0.582778  0.946386  0.915801   0.659841  0.521839
+XG Boost            0.579682  0.945734  0.912305   0.630299  0.536782
+Best Model per Metric
+F1: Gradient Boosting
+Roc_auc: Gradient Boosting
+Accuracy: Gradient Boosting
+Precision: RandomForest
+Recall: XG Boost
